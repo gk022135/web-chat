@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, Sparkles, Users, Shield, Zap, Bot, ArrowRight, Mail, Lock, User, Eye, EyeOff } from 'lucide-react';
+import Test from './test';
 
 require('dotenv').config();
 
@@ -256,6 +257,7 @@ export default function AIChatLanding() {
           </div>
         </div>
       </div>
+      <Test />
     </div>
   );
 }
