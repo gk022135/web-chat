@@ -10,8 +10,9 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("NEXT_PUBLIC_DATABASE_URL")
+  url      = "postgresql://postgres:12345678@localhost:5432/web_chat2"
 }
+
 
 model User {
   id    Int     @id @default(autoincrement())
